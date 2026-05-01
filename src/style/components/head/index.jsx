@@ -3,8 +3,8 @@ import './style.css';
 
 const setActive = ({isActive}) => (isActive ? "active" : "");
 
-export function head(){
-    return <div className="header">head
+export function Head(){
+    return <div className="Header">
         <nav className="nav-container">
             <NavLink to="/news" className={setActive}> Новости</NavLink>
             <NavLink to="/about" className={setActive}> о проекте</NavLink>
@@ -14,4 +14,4 @@ export function head(){
     </div>
 }
 
-export default head;
+export default Head;

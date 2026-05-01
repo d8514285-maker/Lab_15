@@ -1,11 +1,11 @@
 import './style.css';
 
-export function footer(){
+export function Footer(){
     return
-     <div class="footer">
+     <div class="Footer">
         <p>11.04.2026</p>
         <p> Danil Gorbunov</p>
     </div>
 }
 
-export default footer;
+export default Footer;
